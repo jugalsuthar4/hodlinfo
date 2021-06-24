@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/hodlinfo/static/css/main.44726f6c.chunk.css",
+    "main.js": "/hodlinfo/static/js/main.dad31e2f.chunk.js",
+    "main.js.map": "/hodlinfo/static/js/main.dad31e2f.chunk.js.map",
+    "runtime-main.js": "/hodlinfo/static/js/runtime-main.ed029fd9.js",
+    "runtime-main.js.map": "/hodlinfo/static/js/runtime-main.ed029fd9.js.map",
+    "static/js/2.11ae63df.chunk.js": "/hodlinfo/static/js/2.11ae63df.chunk.js",
+    "static/js/2.11ae63df.chunk.js.map": "/hodlinfo/static/js/2.11ae63df.chunk.js.map",
+    "static/js/3.b40d2e3d.chunk.js": "/hodlinfo/static/js/3.b40d2e3d.chunk.js",
+    "static/js/3.b40d2e3d.chunk.js.map": "/hodlinfo/static/js/3.b40d2e3d.chunk.js.map",
+    "index.html": "/hodlinfo/index.html",
+    "static/css/main.44726f6c.chunk.css.map": "/hodlinfo/static/css/main.44726f6c.chunk.css.map",
+    "static/js/2.11ae63df.chunk.js.LICENSE.txt": "/hodlinfo/static/js/2.11ae63df.chunk.js.LICENSE.txt",
+    "static/media/coindcx.d9acd10e.svg": "/hodlinfo/static/media/coindcx.d9acd10e.svg",
+    "static/media/crypto.6e4a62e6.png": "/hodlinfo/static/media/crypto.6e4a62e6.png",
+    "static/media/hodlinfo.ea678db9.png": "/hodlinfo/static/media/hodlinfo.ea678db9.png",
+    "static/media/registernow.55699dca.png": "/hodlinfo/static/media/registernow.55699dca.png",
+    "static/media/warzix.0e726d1f.png": "/hodlinfo/static/media/warzix.0e726d1f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed029fd9.js",
+    "static/js/2.11ae63df.chunk.js",
+    "static/css/main.44726f6c.chunk.css",
+    "static/js/main.dad31e2f.chunk.js"
+  ]
+}

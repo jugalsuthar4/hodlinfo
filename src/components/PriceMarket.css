@@ -1,0 +1,35 @@
+.market{
+    display: flex;
+    padding: 20px 0;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+    margin-top:10px;
+}
+
+.data-percentage> h1{
+    color:#74cfcb;
+}
+.data-rupees > h1{
+    font-size:80px;
+}
+.data-percentage , .data-rupees > h4{
+    color:grey;
+}
+@media screen and (max-width: 480px) {
+    .market{
+        justify-content:center;
+        font-size:small;
+        padding:0;
+        margin:15px 0;
+    }
+    .data-percentage > h1{
+        font-size:x-small;
+    }
+    .data-percentage > h4{
+        width:50px;
+    }
+    .data-rupees>h1{
+        font-size:small;
+    }
+}

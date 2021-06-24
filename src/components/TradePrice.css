@@ -1,0 +1,73 @@
+.tradeprice{
+    padding:20px 0;
+    display:flex;
+    width: 100%;
+    margin-top:15px;
+
+}
+.tradeprice > table{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:separate;
+    border-spacing:15px;
+
+}
+table,td,tr{
+    padding: 10px;
+    letter-spacing:2px;
+  
+    
+}
+
+td{
+    text-align:center;
+    
+}
+td> img{
+    height: 25px;
+    object-fit: cover;
+}
+tr{
+ 
+    font-weight: bold;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+    
+}
+.data-tr{
+    width:100%;
+     background-color:whitesmoke;
+}
+.red-flag{
+    color:red;
+}
+.blue-flag{
+    color:#74cfcb;
+}
+@media screen and (max-width: 480px) {
+    .tradeprice{
+        overflow-x: auto;
+    }
+    table,tr,td{
+        padding:10px;
+    }
+    tr{
+        overflow-x: auto;
+        letter-spacing:0px;
+        font-size:x-small;
+        /*font-weight:normal;*/
+     
+    }
+    .tradeprice > table{
+        border-spacing: 0px;
+        border-collapse: collapse
+    }
+    td> img{
+        height:10px;
+    }
+    .data-tr{
+        width:50%;
+    }
+}

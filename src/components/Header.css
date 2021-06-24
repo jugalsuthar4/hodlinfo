@@ -1,0 +1,136 @@
+.header{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-around;
+    padding:20px 0;
+}
+.header__logo > img{
+    width:300px;
+    object-fit: cover;
+}
+.header__logo > h5{
+    margin-left:5px;
+    letter-spacing:2px;
+}
+
+.select__button{
+    width:fit-content;
+    margin:0 10px;
+    border-radius: 8px;
+    background-color:#f8f9fa;
+    outline-width: 0;
+    border:none;
+    outline:none;
+    padding:10px;
+    cursor: pointer;
+    
+}
+.option-select{
+    border:none;
+    padding:40px;
+    outline:none;
+    background-color:transparent;
+}
+.select-selected {
+    background-color: DodgerBlue;
+  }
+.header__telegramLink{
+    display:flex;
+    align-items: center;
+}
+.header__telegramLink >button{
+    width:fit-content;
+    border:0;
+    outline-width:0;
+    padding:15px;
+    border-radius:5px;
+    background-color:#74cfcb;
+    cursor:pointer;
+    color:#fafafa;
+    font-weight: bold;
+    margin:0 15px;
+    display:flex;
+    align-items:center;
+    letter-spacing:2px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #74cfcb;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #74cfcb;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .header{
+        flex-direction: column;
+        padding:15px;
+    }
+    .header__logo ,.header__btc,.header__telegramLink{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header__logo{
+        flex-direction:column;
+    }
+    .header__btc,.header__telegramLink{
+        margin:15px 0;
+        flex-direction:row;
+    }
+    
+  }
